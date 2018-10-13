@@ -1,0 +1,35 @@
+{
+  "name": "http-vending-machine",
+  "version": "0.1.0",
+  "description": "Charge for HTTP file downloads on a pay-per-call basis with Bitcoin and Lightning",
+  "main": "dist/app.js",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "dist": "babel -d dist src",
+    "prepublishOnly": "npm run dist"
+  },
+  "repository": "https://github.com/ch4ot1c/http-vending-machine.git",
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "lightning-charge",
+    "pay-per-call",
+    "micropayments"
+  ],
+  "author": "Jon Layton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "paypercall": "^0.1.4",
+    "serve-index": "^1.9.1",
+    "ws": "^6.1.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

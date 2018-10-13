@@ -1,0 +1,4 @@
+To set up a lightning node on a Raspberry Pi (3):`
+
+https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1
+

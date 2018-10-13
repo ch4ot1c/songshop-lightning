@@ -1,5 +1,5 @@
 const LIGHTNING_CHARGE_TOKEN = 'mySecretToken123'
-const DEFAULT_PRICE_BTC = 0.01
+const DEFAULT_PRICE_BTC = 0.00001
 
 const FILES_DIR = 'for-sale' // Directory your files will be served from
 
